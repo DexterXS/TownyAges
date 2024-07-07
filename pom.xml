@@ -61,6 +61,18 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>andross-repo</id>
+            <url>https://repo.andross.fr/</url>
+        </repository>
+        <repository>
+            <id>glaremasters-repo</id>
+            <url>https://repo.glaremasters.me/repository/towny/</url>
+        </repository>
+        <repository>
+            <id>luckperms</id>
+            <url>https://repo.luckperms.net/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -68,6 +80,23 @@
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>1.20.4-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.luckperms</groupId>
+            <artifactId>api</artifactId>
+            <version>5.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.palmergames.bukkit.towny</groupId>
+            <artifactId>towny</artifactId>
+            <version>0.100.3.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.andross.banitem</groupId>
+            <artifactId>BanItemPlugin</artifactId>
+            <version>3.4</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

@@ -1,4 +1,11 @@
 name: TownyAges
-version: '${project.version}'
-main: org.dexterx.mc.townyages.TownyAges
-api-version: '1.20'
+version: 1.0
+main: org.dexterx.mc.townyages.TownyAge
+api-version: 1.20
+depend: [Towny, LuckPerms, Banitem]
+commands:
+  t:
+    description: Towny Age management command
+    usage: /t age <set|edit|del|menu>
+    aliases: [tage]
+    tab-completer: org.dexterx.mc.townyages.TownyAgeTabCompleter
