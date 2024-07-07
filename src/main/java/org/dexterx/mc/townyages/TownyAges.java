@@ -6,8 +6,7 @@ public final class TownyAges extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        // Plugin startup log
     }
 
     @Override
