@@ -1,0 +1,4 @@
+name: TownyAges
+version: '${project.version}'
+main: org.dexterx.mc.townyages.TownyAges
+api-version: '1.20'
